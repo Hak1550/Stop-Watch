@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Stop-Watch</h1>
+
+    <div class="contain">
+    
+        <div class="headings">
+        <p class="heading min-head">Minutes</p>
+        <p class="heading sec-head">Seconds</p>
+        <p class="heading">Milli-Seconds</p>
+    </div>
+
+
+
+
+    <div id="counter">
+        <div id="min">0</div>
+        <div id="sec">0</div>
+        <div id="msec" >0</div>
+    </div>
+
+    <div id="btns">
+        <button id="start" onclick="start()"> Start </button>
+        <button id="pause" onclick="pause()"> Pause </button>
+        <button id="stop" onclick="stop()"> Stop </button>
+    </div>
+</div>
+
+<div class="laps">
+    <table>
+        <tr  class="lap">
+            <th>S. NO</th>
+            <th>LAPS RECORD</th>
+            <th>TIME PERIOD</th>
+            <th>ACTION</th> 
+        </tr>
+        <tr  class="lap">
+            <td>1</td>
+            <td>Lap record</td>
+            <td>5 min 15 sec</td>
+            <td><button>Cancel</button></td>
+        </tr>
+        <tr  class="lap">
+            <td>2</td>
+            <td>Lap record</td>
+            <td>10 min 45 sec</td>
+            <td><button>Cancel</button></td>
+        </tr>
+    </table>
+
+
+
+</div>
+
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
