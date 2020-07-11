@@ -94,14 +94,26 @@ h1 {
 font-size: 3em;
 display: inline-block;
 margin: 10px 20px;
-width: 60px;
+width: 30px;
 }
 #start, #pause, #stop {
-font-size: 1.5em;
+font-size: 1.0em;
 margin: 5px 5px;
 
 }
 .contain{
 padding: 5px;
+min-width: 320px;
+
+}
+th{
+    font-size: 1rem;
+}
+td{
+    min-width: 90px;
+    font-size: 1rem;
+}
+td > button{
+    font-size: 0.7rem;
 }
 }
